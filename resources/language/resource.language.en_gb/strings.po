@@ -1,0 +1,153 @@
+# Kodi Media Center language file
+# Addon Provider: leopheard
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: leopheard@gmail.com\n"
+"POT-Creation-Date: 2019-08-12 HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-08-12 HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "The Gist"
+msgstr ""
+
+msgctxt "#30002"
+msgid "What Next"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Slate Money"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Political Gab Fest"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Slow Burn: Watergate"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Trumpcast"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Slate Whistlestop"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Amicus With Dahlia Lithwick"
+msgstr ""
+
+msgctxt "#30009"
+msgid "His Dark Materials"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Culture Gabfest"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Spoiler Specials"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Hang Up And Listen"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Hit Parade"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Studio 360"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Thirst Aid Kit"
+msgstr ""
+
+msgctxt "#30016"
+msgid "History Of The Future"
+msgstr ""
+
+msgctxt "#30017"
+msgid "If Then"
+msgstr ""
+
+#msgctxt "#30018"
+#msgid ""
+#msgstr ""
+
+msgctxt "#30019"
+msgid "Working"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Dear Prudence"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Hip Hi Nation"
+msgstr ""
+
+msgctxt "#30022"
+msgid "How To! With Charles Duhigg"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Lexicon Valley"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Aymann"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Mom And Dad Are Fighting"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Outward"
+msgstr ""
+
+msgctxt "#30027"
+msgid "The Waves: Gender, Relationships, Feminism"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Represent"
+msgstr ""
+
+msgctxt "#30029"
+msgid "You Must Remember This"
+msgstr ""
+
+msgctxt "#30030"
+msgid "The History of American Slavery"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Ask"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Who Runs That?"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Working"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Audio Book Club"
+msgstr ""
+
+# empty string with id 32003
