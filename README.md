@@ -1,6 +1,6 @@
 <a href="https://slate.com/podcasts">Slate</a> podcasts.<br>
 
-<a href="kodi.tv">KODI<a> / XBMC / Firestick addon for the <a href="https://slate.com/podcasts">Slate</a> podcast.<br>
+<a href="kodi.tv">KODI<a> / XBMC / Firestick audio addon for the <a href="https://slate.com/podcasts">Slate</a> podcast.<br>
 
 <img src="https://compote.slate.com/images/83fd349c-3e04-49f6-a32f-dd015b8883b7.png?width=780&height=520&rect=1560x1040&offset=0x0"><br>
 

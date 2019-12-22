@@ -182,14 +182,12 @@ def get_playable_podcast1(soup1):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/322754a0-8289-11e5-b42a-9768945f372d/image/uploads_2F1516106554073-8qgavf6rjq8-a63340bf37b427df31e62e0440cc0294_2F01_Slate_Redux_Podcast_Cover_The-Gist.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -244,14 +242,12 @@ def get_playable_podcast3(soup3):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/3244f352-8289-11e5-b42a-730ed12c5ae6/image/uploads_2F1516105165439-3mqt15g4y3d-2c496fccbc1a29b938303b2bda12467a_2F01_Slate_Redux_Podcast_Cover_Slate-Money.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -275,14 +271,12 @@ def get_playable_podcast4(soup4):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/310f8cfe-8289-11e5-b42a-c78a2a468812/image/uploads_2F1516104874974-9xwrsh4ccl-5e5f7491cf0582599bb2341880f5eff8_2F01_Slate_Redux_Podcast_Cover_Political-Gabfest.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -306,14 +300,12 @@ def get_playable_podcast5(soup5):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/86fe6492-bb2a-11e7-873d-cf56b25e8a62/image/uploads_2F1572544906594-spgvw87cj8-54c8272c2010ba90642cfdf454ad4dc0_2Fuploads_2F1571932956542-8mrvti3lrxc-bc7f3820c678dde981cad83dd10aeafa_2FSlate_Redux_Podcast_Cover_Slow_Burn_season_3_red.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -337,14 +329,12 @@ def get_playable_podcast6(soup6):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/3b20b428-e6f4-11e5-813f-3395d2f9ac4a/image/uploads_2F1516106643050-pgx3lr6pldc-12b6d5e818f0a458728a43d62cdbe670_2F01_Slate_Redux_Podcast_Cover_Trumpcast.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -399,14 +389,12 @@ def get_playable_podcast8(soup8):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/32590f9a-8289-11e5-b42a-071d65eb13b2/image/uploads_2F1516131500056-g2cl5bp0giu-86bb34c4a8ac94ff6a6aa04e6bf665f5_2F01_Slate_Redux_Podcast_Cover_AmicusDahlia.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -430,14 +418,12 @@ def get_playable_podcast9(soup9):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/881e6e8c-f9d8-11e9-8b87-df1f7b284d76/image/uploads_2F1572648140023-zmjp3tpcf3-c84c6e0bc254bdd041820ae089e713a6_2Fthe-authority-his-dark-materials-revised.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -492,14 +478,12 @@ def get_playable_podcast11(soup11):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/30ad81f8-8289-11e5-b42a-a339e1fc57f0/image/uploads_2F1516105089792-vq7id2m12ca-7a3491617ebbed510296ef968d4d7cd4_2F01_Slate_Redux_Podcast_Cover_Spoiler-Specials.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -523,14 +507,12 @@ def get_playable_podcast12(soup12):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/315f6030-8289-11e5-b42a-cb184c69d8df/image/uploads_2F1516105977185-m7u47vx5e2h-ec07a24d54312dd61910a3053264fb02_2F01_Slate_Redux_Podcast_Cover_Hang-Up-And-Listen.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -554,14 +536,12 @@ def get_playable_podcast13(soup13):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/06d9b1ba-2537-11e7-8aae-439ac72a7cfb/image/uploads_2F1516119750593-8ax07ll4hok-3f5e4012b539ea170e91ad465058c448_2F01_Slate_Redux_Podcast_Cover_Hit-Parade.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -585,14 +565,12 @@ def get_playable_podcast14(soup14):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/e0f98a7a-7305-11e7-a72e-5b4dbe8ce54a/image/uploads_2F1562776175493-wlnr954349b-152805e80de467ae25ccb3466496de10_2FStudio360_logo-3000x3000.png",
         }
         subjects.append(item) 
     return subjects
@@ -647,14 +625,12 @@ def get_playable_podcast16(soup16):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/26c52aae-4962-11e8-bada-9b63e3018f6e/image/uploads_2F1539269036599-4y3ocqkyzuh-ff4230f14d9edf791a8683dfa837a5d0_2Fsecret-history-of-the-future-podcast-tile-3000px.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -771,14 +747,12 @@ def get_playable_podcast20(soup20):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/5d6d90b8-2764-11e6-aeb4-1fec3ac8e6f3/image/uploads_2F1524679385331-h67qvb6owkn-2534041b602d6d5a69720d76fffb107b_2F01_Slate_Redux_Podcast_Cover_Dear-Prudence-3000pxSlate.jpg",
         }
         subjects.append(item) 
 
@@ -834,14 +808,12 @@ def get_playable_podcast22(soup22):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/3872bf46-78d7-11e9-9d2b-23925dc9fc3a/image/uploads_2F1564411397150-tqmtn667d9d-e190166ccce7650754d55dfb732e7635_2F190621-how-to-tile-whitelogo.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -865,14 +837,12 @@ def get_playable_podcast23(soup23):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/319ceac2-8289-11e5-b42a-2779ad7f4b90/image/uploads_2F1516105589009-gik2acbhokq-2d97f73690b3e75805b5c1bbae6ce1d3_2F01_Slate_Redux_Podcast_Cover_Lexicon-Valley.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -896,14 +866,12 @@ def get_playable_podcast24(soup24):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/a50bfad8-3948-11e9-80af-67e54c1b3beb/image/uploads_2F1572545091459-avgr6p8m91h-99a477bbf5127b12bc5989b00057234a_2Fuploads_2F1555097076090-j6g5kkdx8gp-739074536104a002524effa97c39c6e4_2Funnamed_284_29.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -932,7 +900,7 @@ def get_playable_podcast25(soup25):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/31ef271a-8289-11e5-b42a-27d2fd35eff7/image/uploads_2F1516905010671-cxg36pv3386-d18113fe889804ff329c98b9aded52fd_2F01_Slate_Redux_Podcast_Cover_MADAF.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -961,7 +929,7 @@ def get_playable_podcast26(soup26):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/cab64e4c-78a4-11e8-9772-e3e3396883d2/image/uploads_2F1534265541528-9lt6igojl1-242fc0556f92d3d9e035c91649993b47_2Foutward-slate-podcast-tile-3000px.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -990,7 +958,7 @@ def get_playable_podcast27(soup27):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/31340e76-8289-11e5-b42a-c792752d987c/image/uploads_2F1553030517129-ufzb8wi2iq-d4dddb3fb18587e01bc42eb56e7374ef_2Fthe-waves-revised.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -1019,7 +987,7 @@ def get_playable_podcast28(soup28):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/28b282b2-4833-11e6-aa15-d733a67d3d3e/image/uploads_2F1516105270103-2h897e65hin-f7fe225bea64f90fb0c3b8eb0e435194_2F01_Slate_Redux_Podcast_Cover_Represent.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -1048,7 +1016,7 @@ def get_playable_podcast29(soup29):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/8f57a588-9582-4b05-89c9-aaa001627e6f/5e92c398-71a9-4767-8181-aaa001627e86/image.jpg?t=1565131495&size=Large",
         }
         subjects.append(item) 
     return subjects
@@ -1077,7 +1045,7 @@ def get_playable_podcast30(soup30):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/00d802da-dee4-11e9-8978-bbfb84b72e35/image/uploads_2F1569340821414-vx1kp5143si-c8df4b9f5e046dac1a1afc97b2f73eb8_2Fthe-history-of-american-slavery-redux-podcast-tile.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -1106,7 +1074,7 @@ def get_playable_podcast31(soup31):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/f436ecae-fdd5-11e6-a822-773e99228842/image/uploads_2F1516105796667-l9gmjuzgup-1d940b89d24f52ef24e2aa9d49d425a3_2F01_Slate_Redux_Podcast_Cover_I-Have-To-Ask.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -1135,7 +1103,7 @@ def get_playable_podcast32(soup32):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/5dccc00c-c009-11e8-98c4-ebb340ccbf15/image/uploads_2F1542064986715-vh28atplur-ef93cb18fab8f9e1a83e2f69e91fba40_2Fwho-runs-that-podcast-tile-3000px.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -1164,7 +1132,7 @@ def get_playable_podcast33(soup33):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/5dccc00c-c009-11e8-98c4-ebb340ccbf15/image/uploads_2F1542064986715-vh28atplur-ef93cb18fab8f9e1a83e2f69e91fba40_2Fwho-runs-that-podcast-tile-3000px.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -1193,7 +1161,7 @@ def get_playable_podcast34(soup34):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/30836968-8289-11e5-b42a-8b58d75e4327/image/uploads_2F1516106489105-h4f6038a6p-fa3e6d340872c743db8217528232fb09_2F01_Slate_Redux_Podcast_Cover_Audio-Book-Club.jpg",
         }
         subjects.append(item) 
     return subjects
