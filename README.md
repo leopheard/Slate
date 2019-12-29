@@ -9,7 +9,7 @@
 <a href="https://slate.com/podcastfaqs">Slate Podcast FAQs</a><br>
 
 The following are included in this addon:<br>
-<br>
+
 - The Gist<br>
 - What Next<br>
 - Slate Money<br>
